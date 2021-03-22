@@ -2,7 +2,14 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "main.scss"
+        "main.scss",
+        "01-settings/_settings.scss",
+        "02-tools/_tools.scss",
+        "03-generic/_generic.scss",
+        "04-elements/_elements.scss",
+        "05-objects/_objects.scss",
+        "06-components/_components.scss",
+        "07-utilities/_utilities.scss"
     ],
     "names": [],
     "file": "main.css"
