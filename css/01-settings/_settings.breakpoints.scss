@@ -1,0 +1,20 @@
+// =====================
+// Breakpoints
+// =====================
+
+$breakpoint-mobile: 576px; // mobile first
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 980px;
+$breakpoint-hd: 1200px;
+
+$mobile: 'mobile';
+$tablet: 'tablet';
+$desktop: 'desktop';
+$hd: 'hd';
+
+$breakpoints: (
+  $mobile: $breakpoint-mobile,
+  $tablet: $breakpoint-tablet,
+  $desktop: $breakpoint-desktop,
+  $hd: $breakpoint-hd
+);

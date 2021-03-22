@@ -1,8 +1,12 @@
 // 01. Settings
-@import '01-settings/settings';
+@import '01-settings/settings.config';
+@import '01-settings/settings.colors';
+@import '01-settings/settings.fonts';
+@import '01-settings/settings.breakpoints';
 
 // 02. Tools
 @import '02-tools/tools';
+@import '02-tools/tools.mediaqueries';
 
 // 03. Generic
 @import '03-generic/generic';

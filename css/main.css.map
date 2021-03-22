@@ -3,8 +3,12 @@
     "mappings": "",
     "sources": [
         "main.scss",
-        "01-settings/_settings.scss",
+        "01-settings/_settings.config.scss",
+        "01-settings/_settings.colors.scss",
+        "01-settings/_settings.fonts.scss",
+        "01-settings/_settings.breakpoints.scss",
         "02-tools/_tools.scss",
+        "02-tools/_tools.mediaqueries.scss",
         "03-generic/_generic.scss",
         "04-elements/_elements.scss",
         "05-objects/_objects.scss",
