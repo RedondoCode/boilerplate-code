@@ -2,6 +2,15 @@
 // Media Queries
 // =====================
 
+// Mixin para establecer los media query
+// @param: $display (ver valores en _Settings.breakpoints.scss)
+
+// .usage {
+//   @include media-query($table) {
+//      propiedad: valor;
+//   }
+// }
+
 @mixin media-query ($display) {
   @media only screen and (min-width: map-get($map: $breakpoints, $key: $display)) {
     @content;
